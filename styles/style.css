@@ -1,0 +1,330 @@
+@font-face { 
+    font-family: "rounded bold"; 
+    src: url(“../fonts/HelveticaRoundedLTStd-Bd.otf”); 
+}
+@font-face {
+    font-family: "rounded black"; 
+    src: url(“../fonts/HelveticaRoundedLTStd-Black.otf”);
+}
+
+@font-face {
+    font-family: "roman"; 
+    src: url(“../fonts/HelveticaNeueLTW1Gs55Roman.otf”);
+}
+
+@font-face {
+    font-family: "Helvetica Bold"; 
+    src: url(“../fonts/HelveticaNeueLTW1G-Bold.otf”);
+}
+
+body{
+    background-color: black;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    z-index: 1000PX;
+}
+#navbar{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1990px;
+    border-bottom: 2px white;
+    font-family: Helvetica Neue LT W1G;
+    font-size: 20px;
+
+color: #FFFFFF;
+}
+.logo{
+    display: flex;
+    align-items: center ;
+    font-family: Helvetica Neue LT W1G;
+    font-size: 20px;
+}
+.logo h3{
+font-family: Helvetica Rounded LT Std;
+font-size: 41.6803px;
+line-height: 50px;
+
+color: #F12C2C; 
+    margin-right: 20px ;
+}
+.logo p{
+    align-items: baseline;
+    font-family: Helvetica Neue LT W1G;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+nav{
+    display: flex;
+}
+nav p{
+    margin-right: 48px;
+}
+nav p:last-child{
+    margin-right: 0;
+}
+main{
+    height: 907px;
+}
+.section1{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+   
+}
+.section1-left{
+    padding-top: 56px;
+    padding-bottom: 215px;
+    width: 474px;
+    margin-left: 48px;
+}
+.section1-left h1{
+font-family: Helvetica Rounded LT Std;
+font-size: 107px;
+line-height: 128px;
+
+color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.section1-left p{
+font-family: Helvetica Neue LT W1G;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+    margin-bottom: 55px;
+}
+
+button {
+    background-color: red;
+    
+    border: none;
+    color: black;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    box-shadow: 5px 0 5px rgb(27, 26, 26);
+    animation: colorangel 10s;
+
+}
+
+@keyframes colorangel{
+0%{
+    background-color: indianred;
+}
+25%{
+    background-color: indigo;
+}
+50%{
+    background-color: blue;
+}
+85%{
+    background-color:chartreuse;
+}
+100%{
+    background-color: red;
+}
+}
+.section1-right{
+padding-right: 48px;
+}
+
+.section1-right p{
+font-family: Helvetica Neue LT W1G;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+padding-left: 150px;
+    margin-top: 60px;
+    margin-right: 48px;
+    margin-bottom: 100px;
+    max-width: 521px;
+}
+
+
+.imagen1 {
+    width: 724px;
+    height: 649px;
+}
+
+
+.section2{
+    margin-top: -24px;
+    color: white;
+    background-color: grey ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section2-left p{
+    margin-top: 400px;
+    flex-wrap: wrap;
+}
+.section2-right{
+margin-right: 48px;
+text-align: center;
+/* background-color: black; */
+width: 724px;
+/* height: 300px; */
+flex-wrap: wrap;
+
+}
+h2{
+font-family: Helvetica Rounded LT Std;
+font-size: 158.657px;
+line-height: 190px;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+
+}
+.section2-right p{
+font-family: Helvetica Neue LT W1G;
+font-size: 32.9143px;
+line-height: 39px;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+    background-color: black;
+    height: 150px;
+
+}
+.imagen2{
+    margin-top: -40px;
+    width: 727px;
+    height: 711px;
+}
+
+.section2-right h2 {
+    background-color: black;
+}
+
+.section3{
+    margin-top: -24px;
+    color: white;
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.section3-right{
+margin-left: 48px;
+text-align: center;
+/* background-color: black; */
+width: 624px;
+/* height: 300px; */
+
+}
+h2{
+font-family: Helvetica Rounded LT Std;
+font-size: 158.657px;
+line-height: 190px;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+
+}
+.section3-right p{
+font-family: Helvetica Neue LT W1G;
+font-size: 32.9143px;
+line-height: 39px;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+    background-color: grey;
+    height: 150px;
+
+}
+.imagen3{
+    margin-top: -40px;
+    width: 727px;
+    height: 711px;
+}
+
+.section3-right h2 {
+    background-color: grey;
+}
+
+.section3-left h1{
+font-family: Helvetica Rounded LT Std;
+font-size: 107px;
+line-height: 128px;
+padding-left: 60px;
+margin-top: 66px;
+}
+.section3-left p{
+font-family: Helvetica Neue LT W1G;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+    margin-bottom: 55px;
+    padding-left: 60px;
+    margin-right: 48px;
+    margin-top: 66px;
+
+}
+.imagen3{
+    width: 724px;
+    margin-left: -60px;
+}
+@media (max-width: 768px){ 
+    #navbar{
+        display: flex;
+justify-content: space-between;    
+}
+.imagen1{
+max-width: 100%;
+}
+.section2{
+    width: fit-content;
+}
+.section2-right{
+    width: fit-content;
+}
+
+.section3{
+flex-wrap: wrap;
+width: fit-content;
+max-width: max-content;
+margin-left: 0px;
+margin-top: 0px;
+}
+.section3-left{
+    flex-wrap: wrap;
+    width: fit-content;
+    padding: none;
+    max-width: 100%;
+}
+.responsive_mobile{
+    display: flex;
+    justify-items: center;
+}
+.section3-right img{
+}
+}
